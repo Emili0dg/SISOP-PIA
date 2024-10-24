@@ -1,3 +1,160 @@
 body{
-    background-color: black;
+	background: linear-gradient(160deg, #0c0e0d, #1a2143);
+}
+
+.desplegable{
+    background: linear-gradient(to right, #4c4a80, #231f99);
+	width: 50%;
+	height: 100vh;
+	position:fixed;
+	left: -100%;
+	transition: 1s;
+	z-index: 9999;
+}
+
+.desplegable-on{
+	left: 0;
+}
+
+.menu{
+	position: fixed;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+	padding-left: 2%;
+}
+
+.menu img{
+	cursor: pointer;
+}
+
+.cruz{
+	display: flex;
+	justify-content: end;
+	position: absolute;
+}
+
+.cruz img{
+	cursor: pointer;
+	margin: 1vw;
+}
+
+.index{
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.oso{
+	width: 50%;
+	animation-name: Levitationoso;
+	animation-duration: 2s;
+	animation-iteration-count: infinite; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes Levitationoso{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.oso img{
+	width: 100%;
+	transform: rotate(-30deg);
+}
+
+.fime{
+	animation-name: levitationfime;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+@keyframes levitationfime{
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+
+.fime img{
+	width: 50%;
+}
+
+.integrantes{
+	text-align: center;
+}
+
+.integrantes td,th{
+	border: 1px solid #16286c;
+	width: 17vw;
+	height: 6vh;
+	font-size: small;
+	color: white;
+}
+
+.escu{
+	position: relative;
+	bottom: 0vh;
+}
+
+.uninom{
+	font-style: normal;
+	color: white;
+}
+
+.escu h1{
+	font-size: 4.5vh;
+}
+
+/* DESPLEGABLE */
+.sub{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+}
+
+.sub a{
+	font-size: 5vh;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	position: relative;
+}
+
+.sub a:after{
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.6s;
+}
+
+.sub a:hover:after{
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
