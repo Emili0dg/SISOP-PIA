@@ -1,3 +1,4 @@
+/* OTROS ESTILOS */
 body{
     background: linear-gradient(to right, #0c0e0d, #1a2143);
 }
@@ -19,6 +20,7 @@ body{
     justify-content: initial;
 }
 
+/* ANIMACIÓN CASA FLOTANTE */
 .home img{
     margin: 1vw;
     animation-name: flotando;
@@ -67,7 +69,7 @@ nav{
     text-decoration: none;
 }
 
-/* Introduction */
+/* INTRODUCCIÓN */
 .main-desc{
     padding-left: 5% !important;
 }
@@ -91,7 +93,7 @@ nav{
     padding-right: 5%;
 }
 
-/* Imagen */
+/* IMAGEN */
 .imagen{
     padding-left: 5% !important;
     padding-right: 5% !important;

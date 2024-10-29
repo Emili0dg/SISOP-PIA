@@ -1,7 +1,9 @@
+
 body{
 	background: linear-gradient(160deg, #0c0e0d, #1a2143);
 }
 
+/* MENU DESPLEGABLE */
 .desplegable{
     background: linear-gradient(to right, #4c4a80, #231f99);
 	width: 50%;
@@ -38,94 +40,7 @@ body{
 	margin: 1vw;
 }
 
-.index{
-	height: 100vh;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.oso{
-	width: 50%;
-	animation-name: Levitationoso;
-	animation-duration: 2s;
-	animation-iteration-count: infinite; 
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-@keyframes Levitationoso{
-	0%{
-		transform: translateY(0);
-	}
-	50%{
-		transform: translateY(-10px);
-	}
-	100%{
-		transform: translateY(0);
-	}
-}
-
-.oso img{
-	width: 100%;
-	transform: rotate(-30deg);
-}
-
-.fime{
-	animation-name: levitationfime;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-@keyframes levitationfime{
-	0%{
-		transform: translateY(-10px);
-	}
-	50%{
-		transform: translateY(0px);
-	}
-	100%{
-		transform: translateY(-10px);
-	}
-}
-
-.fime img{
-	width: 50%;
-}
-
-.integrantes{
-	text-align: center;
-}
-
-.integrantes td,th{
-	border: 1px solid #16286c;
-	width: 17vw;
-	height: 6vh;
-	font-size: small;
-	color: white;
-}
-
-.escu{
-	position: relative;
-	bottom: 0vh;
-}
-
-.uninom{
-	font-style: normal;
-	color: white;
-}
-
-.escu h1{
-	font-size: 4.5vh;
-}
-
-/* DESPLEGABLE */
+/* SUBTITULO MENU DESPLEGABLE */
 .sub{
 	height: 100%;
 	display: flex;
@@ -157,4 +72,40 @@ body{
 .sub a:hover:after{
 	transform: scaleX(1);
 	transform-origin: bottom left;
+}
+
+/* TABLA CON NOMBRES */
+.index{
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.integrantes{
+	text-align: center;
+}
+
+.integrantes td,th{
+	border: 1px solid #16286c;
+	width: 17vw;
+	height: 6vh;
+	font-size: small;
+	color: white;
+}
+
+/* ANIMACIÓN NOMBRE DE LA UNIVERSIDAD */
+.escu{
+	position: relative;
+	bottom: 0vh;
+}
+
+.uninom{
+	font-style: normal;
+	color: white;
+}
+
+.escu h1{
+	font-size: 4.5vh;
 }
