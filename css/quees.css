@@ -11,6 +11,7 @@ body{
     justify-content: center;
 }
 
+/* ANIMACIÓN CASA FLOTANTE */
 .home{
     position: fixed;
     width: 100%;
@@ -20,7 +21,6 @@ body{
     justify-content: initial;
 }
 
-/* ANIMACIÓN CASA FLOTANTE */
 .home img{
     margin: 1vw;
     animation-name: flotando;
@@ -55,11 +55,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     padding: 0;
 }
-
+    
 .lista-nav li{
     list-style: none;
 }
@@ -76,13 +76,12 @@ nav{
 
 .main-desc h1{
     color: white;
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 .main-desc p{
     color: white;
     margin-top: 40px;
-    font-size: 25px;
 }
 
 .main-desc button{
@@ -94,7 +93,6 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 40px;
-    font-size: 20px;
 }
 
 /* IMAGEN */
