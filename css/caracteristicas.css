@@ -166,3 +166,7 @@ nav{
     max-width: 200px;
     max-height: 150px;
   }
+
+  .linea{
+    border-bottom: 5px solid #0B44FF;
+}
