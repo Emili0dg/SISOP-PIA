@@ -1,0 +1,172 @@
+/* OTROS ESTILOS */
+body{
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+}
+
+.main-box{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    position: fixed;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    align-items: end;
+    justify-content: initial;
+}
+
+/* ANIMACIÓN CASA FLOTANTE */
+.home img{
+    margin: 2vw;
+    animation-name: flotando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flotando{
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+
+/* NAV */
+nav{
+    position: asbolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 5px solid #16286c;
+}
+
+.lista-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    padding: 0;
+}
+
+.lista-nav li{
+    list-style: none;
+}
+
+.lista-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/* INTRODUCCIÓN */
+.main-desc{
+    padding-left: 5% !important;
+    margin-bottom: 25vh;
+}
+
+.main-desc h1{
+    color: white;
+    font-size: 7vw;
+}
+
+.main-desc p{
+    color: white;
+    margin-top: -50px;
+    margin-left: -150px;
+    font-size: 30px;
+}
+
+.main-desc button{
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #4c4a80, #231f99);
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* IMAGEN */
+.imagen{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    
+}
+
+.borde-img{
+    
+    box-shadow: 1px 1px 20px 0px #6c5fff;
+    border-radius: 31px;
+    margin-top: 300px;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.linea{
+    border-bottom: 5px solid #0B44FF;
+    
+    
+}
+
+.d-flex{
+    margin-bottom: 200px;
+    margin-left: -900px
+}
+
+
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #2F3D68;
+
+  }
+  .section:last-child {
+    border-bottom: 2px solid #2F3D68;
+  }
+  .section-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-right: 20px;
+    color: white;
+    font-size: 18px;
+  }
+  .section-title {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 20px;
+    min-width: 150px; /* Ajusta este ancho según lo necesites */
+  }
+  .section-description {
+    flex: 1;
+  }
+  .section-image {
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  .linea{
+    border-bottom: 5px solid #0B44FF;
+}
