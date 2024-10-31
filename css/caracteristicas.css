@@ -4,20 +4,22 @@ body{
 }
 
 .main-box{
-    height: 98vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
 }
 
 .home{
     position: fixed;
     width: 100%;
-    height: 98vh;
+    bottom: 1px;
     display: flex;
     align-items: end;
     justify-content: initial;
+}
+
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #4c4a80 #f0f0f0;
 }
 
 /* ANIMACIÓN CASA FLOTANTE */
@@ -42,21 +44,23 @@ body{
 
 /* NAV */
 nav{
-    position: asbolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     border-bottom: 5px solid #16286c;
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+    z-index: 999;
 }
 
 .lista-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5vh;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     padding: 0;
 }
 
@@ -70,22 +74,21 @@ nav{
 }
 
 /* INTRODUCCIÓN */
-.main-desc{
-    padding-left: 0% !important;
-    margin-bottom: 25vh;
-    
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-desc h1{
+.titulo h1{
     color: white;
-    font-size: 7vw;
-    text-align: left;
+    font-size: 6vw;
+    position: relative;
+    top: 10vh;
 }
 
 .main-desc p{
     color: white;
-    margin-top: -50px;
-
     font-size: 24px;
 }
 
@@ -101,79 +104,76 @@ nav{
     font-size: 20px;
 }
 
-.d-flex h1{
-    justify-content: center;
-}
-
 /* IMAGEN */
 .imagen{
     padding-left: 5% !important;
     padding-right: 5% !important;
-    
 }
 
 .borde-img{
-    
     box-shadow: 1px 1px 20px 0px #6c5fff;
     border-radius: 31px;
-    margin-top: 300px;
-    width: 90%;
-    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .linea{
     border-bottom: 5px solid #0B44FF;
-    
-    
 }
 
-.d-flex{
-    justify-content: flex-start;
-    margin-bottom: 200px;
-    margin-left: -80%;
-}
-
-
-
-  .container {
+.container {
     max-width: 900px;
     margin: auto;
     padding: 20px;
-  }
-  .section {
+}
+
+.tabla{
+    height: 100vh;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     border-top: 2px solid #2F3D68;
+}
 
-  }
-  .section:last-child {
+.section:last-child {
     border-bottom: 2px solid #2F3D68;
-  }
-  .section-content {
+}
+
+.section-content {
     display: flex;
     flex-direction: row;
     flex: 1;
     padding-right: 20px;
     color: white;
     font-size: 18px;
-  }
-  .section-title {
+}
+
+.section-title {
     color: white;
-    font-size: 1.2em;
     font-weight: bold;
     margin-right: 20px;
     min-width: 150px; /* Ajusta este ancho según lo necesites */
-  }
-  .section-description {
-    flex: 1;
-  }
-  .section-image {
-    max-width: 200px;
-    max-height: 150px;
-  }
+}
 
-  .linea{
+.section-description {
+    flex: 1;
+    font-size: smaller;
+}
+
+.section-image {
+    width: 10%;
+}
+
+.linea{
     border-bottom: 5px solid #0B44FF;
 }
