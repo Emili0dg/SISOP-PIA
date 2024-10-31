@@ -71,20 +71,22 @@ nav{
 
 /* INTRODUCCIÓN */
 .main-desc{
-    padding-left: 5% !important;
+    padding-left: 0% !important;
     margin-bottom: 25vh;
+    
 }
 
 .main-desc h1{
     color: white;
     font-size: 7vw;
+    text-align: left;
 }
 
 .main-desc p{
     color: white;
     margin-top: -50px;
-    margin-left: -150px;
-    font-size: 30px;
+
+    font-size: 24px;
 }
 
 .main-desc button{
@@ -97,6 +99,10 @@ nav{
     padding-right: 5%;
     margin-top: 40px;
     font-size: 20px;
+}
+
+.d-flex h1{
+    justify-content: center;
 }
 
 /* IMAGEN */
@@ -122,8 +128,9 @@ nav{
 }
 
 .d-flex{
+    justify-content: flex-start;
     margin-bottom: 200px;
-    margin-left: -900px
+    margin-left: -80%;
 }
 
 
