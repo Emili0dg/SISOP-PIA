@@ -76,20 +76,19 @@ nav{
 /* INTRODUCCIÓN */
 .titulo{
     display: flex;
-    justify-content: center;
+    justify-content: initial;
     align-items: center;
 }
 
 .titulo h1{
     color: white;
     font-size: 6vw;
-    position: relative;
-    top: 10vh;
 }
 
 .main-desc p{
     color: white;
-    font-size: 24px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 
 .main-desc button{
@@ -188,8 +187,39 @@ nav{
 	width: 400px;
 	height:400px;
 }
+
 .centro{
 	text-align: center;
 }
+
 .punto{
 	color: blue;
+}
+
+/* Slider */
+.img-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-slider img{
+    width: 90%;
+}
+
+.text-slider{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-slider li, p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
+
+.linea-bln{
+    border-top: 5px solid #16286c;    border-bottom: 5px solid #16286c;
+}
