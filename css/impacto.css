@@ -1,11 +1,15 @@
 /* OTROS ESTILOS */
-body{
+body {
     background: linear-gradient(to right, #0c0e0d, #1a2143);
+    font-size: 2px; 
+
+        background-color: #f8f9fa; 
+    
 }
 
-.main-box{
+.main-box {
+    height: 98vh;
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,11 +25,6 @@ body{
     justify-content: initial;
 }
 
-html{
-    scrollbar-width: thin;
-    scrollbar-color: #4c4a80 #f0f0f0;
-}
-
 .home img{
     margin: 1vw;
     animation-name: flotando;
@@ -33,16 +32,21 @@ html{
     animation-iteration-count: infinite;
 }
 
-@keyframes flotando{
-	0%{
-		transform: translateY(-10px);
-	}
-	50%{
-		transform: translateY(0px);
-	}
-	100%{
-		transform: translateY(-10px);
-	}
+#myPieChart, #myPieChart2 {
+    width: 50px;  
+    height: 50px; 
+}
+
+@keyframes flotando {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 /* NAV */
@@ -76,86 +80,81 @@ nav{
     text-decoration: none;
 }
 
-/* INTRODUCCIÓN */
-.titulo{
-    display: flex;
+.list-container {   
+    color: white; 
     justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
 }
 
-.titulo h1{
-    color: white;
-    font-size: 6vw;
-    position: relative;
-}
-
-.main-desc{
+/* INTRODUCCIÓN */
+.main-desc {
     padding-left: 5% !important;
 }
 
-.main-desc h1{
+.main-desc h1 {
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
-.main-desc p{
+
+.main-desc p {
     color: white;
+    margin-top: 40px;
+    font-size: 1.2rem; 
+}
+
+.main-desc button {
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #4c4a80, #231f99);
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: 40px;
 }
 
 /* IMAGEN */
-.imagen{
+.imagen {
     padding-left: 5% !important;
     padding-right: 5% !important;
 }
 
-.borde-img{
+.borde-img {
     box-shadow: 1px 1px 20px 0px #6c5fff;
-    border-radius: 31px;
+    border-radius: 15px;
+}
+
+.img-container {
+    margin-top: 20px;
+}
+
+/* GRAFICA */
+.chart-row {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    width: 80%;
 }
 
-.linea{
-    border-bottom: 5px solid #0B44FF;
-}
-
+/* LISTA */
 .color-box{
     background: linear-gradient(to right, #4c4a80, #231f99);
-    padding: 5%;
+    padding: 4%;
+    border-radius: 25px;
 }
 
-.color-box p{
-    color: white;
-    font-size: 20px;
-}
-
-.color-box ul{
-    color: white;
-    font-size: 20px;
-}
-
-.titulo-cards{
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.titulo-cards h1{
-    color: white;
+.color-box h1{
     font-size: 5vw;
-}
-
-.card{
-    background: linear-gradient(to right, #4c4a80, #231f99);
-    height: 40vh !important;
-    border-radius: 25px !important;
-}
-
-.card-body p{
     color: white;
+}
+
+.list-container {
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+    font-size: 20px;
 }
