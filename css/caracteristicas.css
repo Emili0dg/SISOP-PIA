@@ -414,3 +414,11 @@ nav{
     --sg0-bg-o: 1;
     background-color: hsla(var(--sg0-color-bg-light-hsl), var(--sg0-bg-o, 1));
   }
+
+  .first-color{
+    background: linear-gradient(to right, #4c4a80, #231f99);
+  }
+
+  .second-color{
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+  }
