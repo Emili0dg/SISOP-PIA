@@ -154,6 +154,17 @@ nav{
         font-size: 1em;
     }
 }
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente si se necesita */
+   
+}
+
+.centered-image {
+    max-width: 100%; 
+    height: auto; /
+}
 
 
 
