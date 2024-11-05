@@ -76,8 +76,11 @@ nav{
 /* INTRODUCCIÓN */
 .titulo{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2.5em; 
+  color: white;
+  position: relative;
+
 }
 
 .titulo h1{
@@ -85,11 +88,13 @@ nav{
     font-size: 6vw;
     position: relative;
     top: 10vh;
+    white-space: nowrap;
 }
 
 .main-desc p{
     color: white;
     font-size: 24px;
+    text-align: justify;
 }
 
 .main-desc button{
@@ -135,11 +140,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .section {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 0;
     border-top: 2px solid #2F3D68;
@@ -155,25 +161,28 @@ nav{
     flex: 1;
     padding-right: 20px;
     color: white;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .section-title {
     color: white;
     font-weight: bold;
     margin-right: 20px;
-    min-width: 150px; /* Ajusta este ancho según lo necesites */
+    min-width: 250px; 
 }
 
 .section-description {
     flex: 1;
     font-size: smaller;
+    text-align: justify;
 }
 
 .section-image {
     width: 10%;
 }
 
-.linea{
-    border-bottom: 5px solid #0B44FF;
-}
+.linea {
+    color: #ffffff; 
+    display: inline;
+    margin-left: 2px; 
+  }
