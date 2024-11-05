@@ -139,6 +139,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-4 d-flex align-items-center justify-content-center" style="height: 100vh;">
+                    <div class="caja">
+                        <div id="yahir" class="img-conclusion">
+                            <img segundainfo src="images/2109425.png" alt="">
+                        </div>
+                        <div id="yahirinfo" class="info-conclusion">
+                            <div>
+                                <h4>Yahir Fuentes González</h4>
+                                <p>Mi experiencia investigando y trabajando para la realización de este proyecto sobre el sistema operativo Harmony OS fue muy grata porque todo el equipo se dispuso a salir de su zona de confort para conocer algo nuevo e interesante como lo es este sistema originario de china que es bastante reciente de hecho.
+                                    Es importante conocer el trasfondo del sistema y saber de dónde viene, pues podemos entender mejor ciertas características de su creación y ver cómo es que ha evolucionado hasta hoy en día ser uno de los sistemas más usados.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -248,7 +263,7 @@
         });
     </script>
 
-    <script>
+     <script>
         const guapo = document.getElementById("guapo");
         const guapoinfo = document.getElementById("guapoinfo");
 
@@ -262,6 +277,21 @@
             guapo.classList.remove("segundaimagen")
         });
     </script>
+
+<script>
+    const yahir = document.getElementById("yahir");
+    const yahirinfo = document.getElementById("yahirinfo");
+
+    yahir.addEventListener("click", function(){
+        yahirinfo.classList.add("segundainfo")
+        yahir.classList.add("segundaimagen")
+    });
+
+    yahirinfo.addEventListener("click", function(){
+        yahirinfo.classList.remove("segundainfo")
+        yahir.classList.remove("segundaimagen")
+    });
+</script>
 
     <script>
         const menu = document.getElementById("menu");
