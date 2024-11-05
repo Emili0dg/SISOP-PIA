@@ -10,6 +10,11 @@ body{
     justify-content: center;
 }
 
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #4c4a80 #f0f0f0;
+}
+
 /* CAJAS */
 .caja{
     width: 80%;

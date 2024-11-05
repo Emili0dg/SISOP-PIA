@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #4c4a80 #f0f0f0;
+}
+
 /* Contenedor principal */
 .main-box {
     height: 98vh;
@@ -71,13 +76,17 @@ nav{
 }
 
 /* Estilo del título */
-.titulo {
+.titulo{
     display: flex;
-    font-size: 5vw;
     color: white;
     font-weight: bold;
     justify-content: center;
     text-align: center;
+    margin: 5%;
+}
+
+.titulo h1{
+    font-size: 5vw;
 }
 
 .titulo .linea {
@@ -166,5 +175,14 @@ nav{
     height: auto; /
 }
 
+/* SCROLL */
+.scroll{
+    height: 75vh;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    width: 80%;
+}
 
 

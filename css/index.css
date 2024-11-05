@@ -14,6 +14,11 @@ body{
 	z-index: 9999;
 }
 
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #4c4a80 #f0f0f0;
+}
+
 .desplegable-on{
 	left: 0;
 }
