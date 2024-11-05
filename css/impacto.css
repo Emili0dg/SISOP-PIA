@@ -1,9 +1,13 @@
 /* OTROS ESTILOS */
-body{
+body {
     background: linear-gradient(to right, #0c0e0d, #1a2143);
+    font-size: 2px; 
+
+        background-color: #f8f9fa; 
+    
 }
 
-.main-box{
+.main-box {
     height: 98vh;
     width: 100%;
     display: flex;
@@ -28,16 +32,21 @@ body{
     animation-iteration-count: infinite;
 }
 
-@keyframes flotando{
-	0%{
-		transform: translateY(-10px);
-	}
-	50%{
-		transform: translateY(0px);
-	}
-	100%{
-		transform: translateY(-10px);
-	}
+#myPieChart, #myPieChart2 {
+    width: 50px;  
+    height: 50px; 
+}
+
+@keyframes flotando {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 /* NAV */
@@ -49,6 +58,8 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     border-bottom: 5px solid #16286c;
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+    z-index: 999;
 }
 
 .lista-nav{
@@ -59,7 +70,7 @@ nav{
     margin-bottom: 3vh;
     padding: 0;
 }
-    
+
 .lista-nav li{
     list-style: none;
 }
@@ -69,23 +80,32 @@ nav{
     text-decoration: none;
 }
 
+.list-container {   
+    color: white; 
+    justify-content: center;
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
 /* INTRODUCCIÓN */
-.main-desc{
+.main-desc {
     padding-left: 5% !important;
 }
 
-.main-desc h1{
+.main-desc h1 {
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
-.main-desc p{
+
+.main-desc p {
     color: white;
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 1.2rem; 
 }
 
-.main-desc button{
+.main-desc button {
     height: 6vh;
     border-radius: 10px;
     border: none;
@@ -97,18 +117,44 @@ nav{
 }
 
 /* IMAGEN */
-.imagen{
+.imagen {
     padding-left: 5% !important;
     padding-right: 5% !important;
-    
 }
 
-.borde-img{
+.borde-img {
     box-shadow: 1px 1px 20px 0px #6c5fff;
     border-radius: 15px;
 }
 
-.linea{
-    border-bottom: 5px solid #0B44FF;
+.img-container {
+    margin-top: 20px;
 }
 
+/* GRAFICA */
+.chart-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+/* LISTA */
+.color-box{
+    background: linear-gradient(to right, #4c4a80, #231f99);
+    padding: 4%;
+    border-radius: 25px;
+}
+
+.color-box h1{
+    font-size: 5vw;
+    color: white;
+}
+
+.list-container {
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+    font-size: 20px;
+}

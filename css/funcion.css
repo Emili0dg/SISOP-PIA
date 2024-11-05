@@ -40,7 +40,7 @@ body {
 }
 
 /* Barra de navegación */
-nav {
+nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -48,10 +48,11 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
     border-bottom: 5px solid #16286c;
-    background-color: rgba(12, 14, 13, 0.9); /* Fondo semitransparente */
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+    z-index: 999;
 }
 
-.lista-nav {
+.lista-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,15 +61,13 @@ nav {
     padding: 0;
 }
 
-.lista-nav li {
+.lista-nav li{
     list-style: none;
 }
 
-.lista-nav a {
+.lista-nav a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
 }
 
 /* Estilo del título */

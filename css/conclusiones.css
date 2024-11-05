@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+}
+
+.main-box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CAJAS */
+.caja{
+    width: 80%;
+    height: 60vh;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: .3s;
+    position: relative;
+    margin-bottom: 5vh;
+    padding: 5%;
+}
+
+.caja div{
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    width: 100%;
+}
+
+.img-conclusion{
+    width: 100%;
+    height: inherit;
+    border-radius: 30px;
+    transform: perspective(500px) rotateY(0deg);
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-conclusion img{
+    width: 50%;
+}
+
+.info-conclusion{
+    width: 100%;
+    height: inherit;
+    border-radius: 30px;
+    transform: perspective(500px) rotateY(180deg);
+    border: 1px solid #EFEBEB;
+    box-shadow: 0px 5px 10px 0px gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-conclusion p{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.info-conclusion h4{
+    text-align: center;
+    color: white;
+}
+
+.segundaimagen{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.segundainfo{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+/* CASA */
+.casa{
+    position: fixed;
+    bottom: 1px;
+    margin: 2%;
+    animation-name: casa;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes casa{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}

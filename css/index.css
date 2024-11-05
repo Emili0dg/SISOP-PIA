@@ -20,9 +20,8 @@ body{
 
 .menu{
 	position: fixed;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-	padding-left: 2%;
+	top: 1px;
+	margin: 2%;
 }
 
 .menu img{
@@ -75,6 +74,16 @@ body{
 }
 
 /* TABLA CON NOMBRES */
+.table-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 100%;
+    color: #fff; 
+    display: flex;
+}
+
 .index{
 	height: 100vh;
 	text-align: center;
@@ -95,6 +104,10 @@ body{
 	color: white;
 }
 
+.integrantes img{
+	width: 30%;
+}
+
 /* ANIMACIÓN NOMBRE DE LA UNIVERSIDAD */
 .escu{
 	position: relative;
@@ -108,4 +121,87 @@ body{
 
 .escu h1{
 	font-size: 4.5vh;
+}
+
+/* CONCLUSIONES */
+.conclusiones{
+	position: fixed;
+	bottom: 1px;
+	right: 1px;
+	margin: 2%;
+	animation-name: conclusion;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes conclusion{
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+
+/* BURBUJAS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #0c192c; 
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+
+.burbujas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	width: 100%;
+	opacity: 0.2;
+}
+
+.burbujas span {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background: #231f99;
+	margin: 10px; 
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px #231f99,
+				0 0 50px #231f99,
+				0 0 100px #231f99;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(125s / var(--i));
+}
+
+.burbujas span:nth-child(even) {
+	background: #4c4a80;
+	box-shadow: 0 0 0 10px #4c4a80,
+				0 0 50px  #4c4a80,
+				0 0 100px  #4c4a80;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(100vh) scale(0);
+	}
+	100% {
+		transform: translateY(-10vh) scale(1);
+	}
 }
