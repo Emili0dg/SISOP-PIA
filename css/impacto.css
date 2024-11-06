@@ -1,17 +1,11 @@
 body {
     background: linear-gradient(to right, #0c0e0d, #1a2143);
-    font-size: 2px; 
     background-color: #f8f9fa; 
 }
 
 .main-box {
     height: 98vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
 }
 
 /* ANIMACIÓN CASA FLOTANTE */
@@ -84,23 +78,21 @@ nav {
     justify-content: center;
     padding: 20px; 
     margin-top: 20px; 
-    font-size: 20px;
 }
 
-.main-desc {
-    padding-left: 5% !important;
+.main-desc{
+    margin-left: 5%;
 }
 
 .main-desc h1 {
     color: white;
-    font-size: 60px; 
+    font-size: 5vw;
 }
 
 .main-desc p {
     color: white;
-    margin-top: 40px;
-    font-size: 30px; 
     text-align: justify; 
+    font-size: 21px;
 }
 
 .main-desc button {
@@ -115,15 +107,6 @@ nav {
 }
 
 /* IMAGEN */
-.imagen {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-}
-
-.borde-img {
-    box-shadow: 1px 1px 20px 0px #6c5fff;
-    border-radius: 15px;
-}
 
 .img-container {
     margin-top: 20px;
@@ -139,32 +122,24 @@ nav {
 }
 
 /* LISTA */
-
-
 .color-box h1 {
-    font-size: 60px; 
     color: white;
 }
 
-.list-container {
+.list-container{
     color: white; 
     padding: 20px; 
     margin-top: 20px; 
-    font-size: 20px;
     text-align: justify; 
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .text2 {
     text-align: center;
     color: white;
-    font-size: 60px; 
-    margin-top: 40px; 
-    margin-bottom: 40px; 
 }
 
 .letter {
-    font-size: 30px; 
     text-align: justify; 
     padding: 10px 0; 
     border-bottom: 2px solid blue; 
@@ -172,4 +147,16 @@ nav {
 
 section {
     margin-top: 60px; /* Ajusta el valor según lo necesario */
+}
+
+.img-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-list img{
+    width: 80%;
+    box-shadow: 1px 1px 20px 0px #6c5fff;
+    border-radius: 15px;
 }
