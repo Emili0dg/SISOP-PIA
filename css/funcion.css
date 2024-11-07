@@ -175,8 +175,6 @@ nav{
     height: auto; /
 }
 
-<<<<<<< HEAD
-=======
 /* SCROLL */
 .scroll{
     height: 75vh;
@@ -186,6 +184,5 @@ nav{
     scrollbar-width: thin;
     width: 80%;
 }
->>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
 
 
