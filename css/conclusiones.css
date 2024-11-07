@@ -10,6 +10,17 @@ body{
     justify-content: center;
 }
 
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #4c4a80 #f0f0f0;
+}
+
+.titulo-conclusiones{
+    color: white;
+    text-align: center;
+   margin-top: 3%;
+}
+
 /* CAJAS */
 .caja{
     width: 80%;

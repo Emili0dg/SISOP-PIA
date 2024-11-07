@@ -1,17 +1,23 @@
 body {
     background: linear-gradient(to right, #0c0e0d, #1a2143);
+<<<<<<< HEAD
     font-size: 2px; 
+=======
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
     background-color: #f8f9fa; 
 }
 
 .main-box {
     height: 98vh;
     width: 100%;
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     
+=======
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
 }
 
 /* ANIMACIÓN CASA FLOTANTE */
@@ -87,20 +93,34 @@ nav {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 .main-desc {
     padding-left: 5% !important;
+=======
+.main-desc{
+    margin-left: 5%;
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
 }
 
 .main-desc h1 {
     color: white;
+<<<<<<< HEAD
     font-size: 60px; 
+=======
+    font-size: 5vw;
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
 }
 
 .main-desc p {
     color: white;
+<<<<<<< HEAD
     margin-top: 40px;
     font-size: 30px; 
     text-align: justify; 
+=======
+    text-align: justify; 
+    font-size: 21px;
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
 }
 
 .main-desc button {
@@ -115,15 +135,6 @@ nav {
 }
 
 /* IMAGEN */
-.imagen {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-}
-
-.borde-img {
-    box-shadow: 1px 1px 20px 0px #6c5fff;
-    border-radius: 15px;
-}
 
 .img-container {
     margin-top: 20px;
@@ -139,25 +150,34 @@ nav {
 }
 
 /* LISTA */
+<<<<<<< HEAD
 
 
 .color-box h1 {
     font-size: 60px; 
+=======
+.color-box h1 {
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
     color: white;
 }
 
-.list-container {
+.list-container{
     color: white; 
     padding: 20px; 
     margin-top: 20px; 
+    text-align: justify; 
     font-size: 20px;
+<<<<<<< HEAD
     text-align: justify; 
     font-size: 1.5vw;
+=======
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
 }
 
 .text2 {
     text-align: center;
     color: white;
+<<<<<<< HEAD
     font-size: 60px; 
     margin-top: 40px; 
     margin-bottom: 40px; 
@@ -165,6 +185,11 @@ nav {
 
 .letter {
     font-size: 30px; 
+=======
+}
+
+.letter {
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
     text-align: justify; 
     padding: 10px 0; 
     border-bottom: 2px solid blue; 
@@ -173,3 +198,18 @@ nav {
 section {
     margin-top: 60px; /* Ajusta el valor según lo necesario */
 }
+<<<<<<< HEAD
+=======
+
+.img-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-list img{
+    width: 80%;
+    box-shadow: 1px 1px 20px 0px #6c5fff;
+    border-radius: 15px;
+}
+>>>>>>> 300f33a866ad4ccc2edecc637fd7b442c4e17052
