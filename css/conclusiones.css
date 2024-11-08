@@ -109,3 +109,24 @@ html{
         transform: translateY(-10px);
     }
 }
+
+.titulo-conclusiones{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin: 2%;
+}
+
+.color-box{
+    background: linear-gradient(to right, #4c4a80, #231f99);
+    padding: 5%;
+}
+
+.color-box h2{
+    color: white;
+}
+
+.color-box p{
+    color: white;
+    font-size: 20px;
+}

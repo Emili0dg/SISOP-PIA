@@ -1,0 +1,97 @@
+/* OTROS ESTILOS */
+body{
+    background: linear-gradient(to right, #0c0e0d, #1a2143);
+}
+
+.main-box{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #4c4a80 #f0f0f0;
+}
+
+/* ANIMACIÓN CASA FLOTANTE */
+.home{
+    position: fixed;
+    width: 100%;
+    bottom: 1px;
+    display: flex;
+    align-items: end;
+    justify-content: initial;
+}
+
+.home img{
+    margin: 1vw;
+    animation-name: flotando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flotando{
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+
+/* NAV */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 5px solid #16286c;
+}
+
+.lista-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 0;
+}
+    
+.lista-nav li{
+    list-style: none;
+}
+
+.lista-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/* CARD */
+.card{
+    background: linear-gradient(to right, #4c4a80, #231f99);
+    height: 50vh !important;
+}
+
+.card-title{
+    color: white !important;
+    text-align: center;
+}
+
+.card-text{
+    color: white;
+    text-align: center;
+}
+
+.btn-primary{
+    position: absolute;
+    bottom: 1px;
+    margin: 5%;
+}

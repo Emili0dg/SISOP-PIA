@@ -170,6 +170,29 @@ html{
 	}
 }
 
+/* FUNDAMENTALES */
+.fundamentales{
+	position: fixed;
+	bottom: 1px;
+	left: 1px;
+	margin: 2%;
+	animation-name: fundamentales;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fundamentales {
+	0%{
+		transform: translateY(-10px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+
 /* BURBUJAS */
 * {
 	margin: 0;
